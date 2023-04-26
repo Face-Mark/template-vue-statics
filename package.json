@@ -6,6 +6,7 @@
   "author": "guohu <guohu@renrui.com>",
   "scripts": {
     "build": "node build/build.js",
+    "stage": "node build/stage-build.js",
     "lint": "eslint --ext .js,.vue src",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --useLocalIp",
     "start": "npm run dev"
