@@ -6,6 +6,7 @@ import router from './router'
 import store from './store'
 import './plugins/element.js'
 import * as filters from './filters' // global filters
+import './icons' // icon
 
 Vue.config.productionTip = false
 
