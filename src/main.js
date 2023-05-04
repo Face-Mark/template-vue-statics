@@ -8,6 +8,9 @@ import './plugins/element.js'
 import * as filters from './filters' // global filters
 import './icons' // icon
 
+// Register Basic Style
+import '@/styles/index.scss'
+
 Vue.config.productionTip = false
 
 // register global utility filters

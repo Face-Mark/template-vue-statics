@@ -21,6 +21,7 @@ export default {
   .des {
     span {
       color: greenyellow;
+      @include abs_left_center();
     }
   }
 </style>

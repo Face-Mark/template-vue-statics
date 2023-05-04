@@ -1,0 +1,58 @@
+body,div,p,ul,li,em,i,a,h1,h2,h3,dt,dd {
+  font-weight: normal;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  margin: 0;
+  padding: 0;
+}
+i {
+  font-style: normal;
+}
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+em, i {
+  font-style: normal;
+}
+.line-a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1E5EFF;
+  text-decoration: underline;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.cur_p {
+  cursor: pointer;
+}
+.mb_10 {
+  margin-bottom: 10px;
+}
+/* input样式修改 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input:-ms-input-placeholder {
+  color: #CCCCCC;
+}/* Internet Explorer 10+ */
+
+input::-webkit-input-placeholder {
+  color: #CCCCCC;
+}/* WebKit browsers */
+
+input::-moz-placeholder {
+  color: #CCCCCC;
+}/* Mozilla Firefox 4 to 18 */
+
+input:-moz-placeholder {
+  color: #CCCCCC;
+}/* Mozilla Firefox 19+ */
